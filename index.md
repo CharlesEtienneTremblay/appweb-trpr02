@@ -4,22 +4,19 @@ layout: home
 
 hero:
   name: "Travail pratique 2"
-  text: "La documentation du travail pratique 2 de Charles-Étienne Tremblay"
-  tagline: My great project tagline
+  text: "Les révisions de code du travail pratique 2"
+  tagline: Par Charles-Étienne Tremblay
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Première révision
+      link: /premiere-revision
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Première révision
+    details: Le première révision de code est disponible
+  - title: Deuxième révision
+    details: La deuxième révision n'est pas encore disponible
+  - title: Troisième révision
+    details: La troisième révision n'est pas encore disponible
 ---
 
