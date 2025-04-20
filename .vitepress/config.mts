@@ -8,12 +8,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Première révision', link: '/premiere-revision' }
+      { text: 'Première révision', link: '/premiere-revision' },
+      { text: 'Deuxième révision', link: '/deuxieme-revision' }
     ],
 
     sidebar: [
       {
-        text: 'Première révision'
+        text: 'Première révision', link: '/premiere-revision'
+      },
+      {
+        text: 'Deuxième révision', link: '/deuxieme-revision'
       }
     ]
   }
