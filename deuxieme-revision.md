@@ -1,7 +1,7 @@
 # Deuxième révision de code
 
 
-## Recommandations non urgentes
+## Répétitions de la dernière révision
 
 #### Fichier README.md vide
 
@@ -9,24 +9,27 @@ Le fichier *README.md* est encore vide. Bien qu'il n'est pas nécessaire de le r
 
 ![](assets/empty_README.png)
 
-
-#### Présence d'un dossier obsolète
-
-Le dossier *css* ainsi que son fichier *main.css* ne contiennent aucunes informations et peuvent donc être effacés.
-
-![](assets/css.png)
-
-![](assets/empty_main_css.png)
-
 #### Affichage de la barre de naviguation
 
 La barre de naviguation n'est pas très belle. Si possible, implémenter le *navbar* de *bootstrap* serait une bonne idée.
 
-#### Améliorations de l'UI du tableau de pointage
 
-Le message d'erreur pour une erreur de chargement est correcte, mais pourrait être amélioré avec un *background* ou un *toast*. Si possible, une façon de montrer si la tableau est en cours de chargement serait bien.
+## Recommandations non urgentes
 
+#### Utilisation de constantes
 
-## Modifications à faire le plus tôt possible
+Des constantes pourraient être utilisées à plusieurs endroits pour éviter d'utiliser des nombres magiques.
 
-**Puisque peu de code a été écrit pour l'instant et qu'il n'y a rien de compliqué ou de manquant, je ne vois rien à mettre dans cette catégorie.**
+#### Mise en place de commentaires
+
+Des commentaires pourraient être mis en place pour améliorer la lisibilité du code, surtout dans *FightManager.vue*
+
+## Modifications urgentes
+
+#### Tests des récits 7, 9 et 10
+
+Le contenu venant des récits 7, 9 et 10, ce qui comprend entre autre *FightManager.vue* et *enemiesService.ts*, ne possèdent pas tous les tests dont ils ont besoin. L'ajout de ces tests et du code nécessaire, comme les *handlers*, est une nécessité urgente pour la remise.
+
+#### Révision du tableau de pointage
+
+Tout le code du tableau de pointage se trouve dans la vue *Leaderboard.vue*. Trouver une manière de découpre celui-ci serait une priorité une fois le travail terminé.
