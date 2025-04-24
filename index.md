@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: Première révision
       link: /premiere-revision
+    - theme: brand
+      text: Deuxième révision
+      link: /deuxieme-revision
 
 features:
   - title: Première révision
