@@ -10,7 +10,8 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Première révision', link: '/premiere-revision' },
-      { text: 'Deuxième révision', link: '/deuxieme-revision' }
+      { text: 'Deuxième révision', link: '/deuxieme-revision' },
+      { text: 'Troisième révision', link: '/troisieme-revision' }
     ],
 
     sidebar: [
@@ -19,6 +20,9 @@ export default defineConfig({
       },
       {
         text: 'Deuxième révision', link: '/deuxieme-revision'
+      },
+      {
+        text: 'Troisième révision', link: '/troisieme-revision'
       }
     ]
   }
